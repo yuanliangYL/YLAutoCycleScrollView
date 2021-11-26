@@ -267,19 +267,21 @@ extension YLAutoCycleScrollView{
         //横向滚动且contentSize大于frame的：及存在滚动需求
         if comfig.scrollDirection == .horizontal && contentSize.width >= self.frame.size.width {
             //用于右侧连接元素数量：弥补轮播右侧首尾相连需要增加的cell数量
-            let point = CGPoint(x: self.frame.size.width - 1, y: 0)
+//            let point = CGPoint(x: self.frame.size.width - 1, y: 0)
 
             //获取交汇处的index的row值
             addRightCount = indexInScreen + 1
 //            addRightCount = (collectionView.indexPathForItem(at: point)?.row ?? 0) + 1
 
-            print(point.x,point.y,collectionView.indexPathForItem(at: point)?.row as Any,addRightCount,self.frame.width,contentSize.width)
+//            print(collectionView.indexPathForItem(at: point)?.row as Any,addRightCount,self.frame.width,contentSize.width)
         }
 
         else if comfig.scrollDirection == .vertical && contentSize.height >= self.frame.size.height {
 
-            let point = CGPoint(x: 0, y: self.frame.size.height - 1)
-            addRightCount = (collectionView.indexPathForItem(at: point)?.row ?? 0) + 1
+            addRightCount = indexInScreen + 1
+
+//            let point = CGPoint(x: 0, y: self.frame.size.height - 1)
+//            addRightCount = (collectionView.indexPathForItem(at: point)?.row ?? 0) + 1
 
         }
 
