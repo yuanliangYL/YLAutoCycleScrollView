@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5739EBB327507321001F1ADA /* YLTopGoodInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5739EBB127507321001F1ADA /* YLTopGoodInfoCell.xib */; };
+		5739EBB427507321001F1ADA /* YLTopGoodInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739EBB227507321001F1ADA /* YLTopGoodInfoCell.swift */; };
+		5739EBBB2750B7AE001F1ADA /* YLAutoCycleComfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739EBB92750B7AE001F1ADA /* YLAutoCycleComfig.swift */; };
+		5739EBBC2750B7AE001F1ADA /* YLAutoCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5739EBBA2750B7AE001F1ADA /* YLAutoCycleScrollView.swift */; };
 		57B61A16274E48B5009EAD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61A15274E48B5009EAD4A /* AppDelegate.swift */; };
 		57B61A18274E48B5009EAD4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61A17274E48B5009EAD4A /* SceneDelegate.swift */; };
 		57B61A1A274E48B5009EAD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57B61A19274E48B5009EAD4A /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5739EBB127507321001F1ADA /* YLTopGoodInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLTopGoodInfoCell.xib; sourceTree = "<group>"; };
+		5739EBB227507321001F1ADA /* YLTopGoodInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLTopGoodInfoCell.swift; sourceTree = "<group>"; };
+		5739EBB92750B7AE001F1ADA /* YLAutoCycleComfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLAutoCycleComfig.swift; sourceTree = "<group>"; };
+		5739EBBA2750B7AE001F1ADA /* YLAutoCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLAutoCycleScrollView.swift; sourceTree = "<group>"; };
 		57B61A12274E48B5009EAD4A /* YLAutoCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAutoCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B61A15274E48B5009EAD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57B61A17274E48B5009EAD4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +64,25 @@
 		57B61A14274E48B5009EAD4A /* YLAutoCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				57B61A29274E48C1009EAD4A /* YLAutoCycleScrollView */,
 				57B61A15274E48B5009EAD4A /* AppDelegate.swift */,
 				57B61A17274E48B5009EAD4A /* SceneDelegate.swift */,
 				57B61A19274E48B5009EAD4A /* ViewController.swift */,
+				5739EBB227507321001F1ADA /* YLTopGoodInfoCell.swift */,
+				5739EBB127507321001F1ADA /* YLTopGoodInfoCell.xib */,
 				57B61A1B274E48B5009EAD4A /* Main.storyboard */,
 				57B61A1E274E48B7009EAD4A /* Assets.xcassets */,
 				57B61A20274E48B7009EAD4A /* LaunchScreen.storyboard */,
 				57B61A23274E48B7009EAD4A /* Info.plist */,
+			);
+			path = YLAutoCycleScrollView;
+			sourceTree = "<group>";
+		};
+		57B61A29274E48C1009EAD4A /* YLAutoCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				5739EBB92750B7AE001F1ADA /* YLAutoCycleComfig.swift */,
+				5739EBBA2750B7AE001F1ADA /* YLAutoCycleScrollView.swift */,
 			);
 			path = YLAutoCycleScrollView;
 			sourceTree = "<group>";
@@ -128,6 +148,7 @@
 				57B61A22274E48B7009EAD4A /* LaunchScreen.storyboard in Resources */,
 				57B61A1F274E48B7009EAD4A /* Assets.xcassets in Resources */,
 				57B61A1D274E48B5009EAD4A /* Main.storyboard in Resources */,
+				5739EBB327507321001F1ADA /* YLTopGoodInfoCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				57B61A1A274E48B5009EAD4A /* ViewController.swift in Sources */,
+				5739EBBB2750B7AE001F1ADA /* YLAutoCycleComfig.swift in Sources */,
 				57B61A16274E48B5009EAD4A /* AppDelegate.swift in Sources */,
+				5739EBB427507321001F1ADA /* YLTopGoodInfoCell.swift in Sources */,
+				5739EBBC2750B7AE001F1ADA /* YLAutoCycleScrollView.swift in Sources */,
 				57B61A18274E48B5009EAD4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
